@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+}
+
+.header__nav {
+    background-color: white;
+    box-shadow: 0 -2px 8px black;
+    margin-bottom: 52px;
+}
+
+.container {
+    max-width: 1121px;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+
+
+.header__menu {
+    /* background-color: rgba(137, 43, 226, 0.274); */
+    display: flex;
+    justify-content: space-between;
+    height: 67px;
+    align-items: center;
+}
+
+.header__menu .logo {}
+
+.header__menu .logo h1 {}
+
+.header__menu .list__section {
+    display: flex;
+    width: 34%;
+    justify-content: space-between;
+}
+
+.header__menu .list__section li {
+    list-style: none;
+    /* font-family: Inter; */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.header__menu .list__section .all__items {
+    /* font-family: Inter; */
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+.content__products {
+    width: 70%;
+}
+
+.content__products .content__list {
+    display: flex;
+    /* max-width: 101%; */
+    flex-wrap: wrap;
+}
+
+.content__products .content__list li {
+    background: white;
+    width: 30%;
+    height: 351px;
+    margin-right: 3%;
+    list-style: none;
+    border-radius: 3px;
+    /* box-shadow: 0 0px 6px -2px black; */
+    margin-bottom: 20px;
+}
+
+.content__products .content__list li figure {
+    height: 41%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(230 230 230 / 38%);
+}
+
+.content__products .content__list li figure img {
+    height: 100%;
+}
+
+.content__products .content__list li article {
+    height: 59%;
+    border: 2px solid rgb(230 230 230 / 38%);
+    padding: 15px 11px;
+}
+
+.content__products .content__list li article .cabecalho__product {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.content__products .content__list li article .cabecalho__product .departamento {}
+
+.content__products .content__list li article .cabecalho__product .departamento p {
+    width: 73px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    background-color: #2E245E;
+    justify-content: center;
+    color: white;
+    font-size: 14px;    
+}
+
+.content__products .content__list li article .cabecalho__product .title {}
+
+.content__products .content__list li article .cabecalho__product .title h3 {}
+
+.content__products .content__list li article main {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.content__products .content__list li article main p {}
+
+.content__products .content__list li article main span {}
+
+.content__products .content__list li article main .button {
+    width: 69%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.carrinho {}
+
+.carrinho .content {}
+
+.carrinho .content header {}
+
+.carrinho .content header input {}
+
+.carrinho .content header button {}
+
+.carrinho .content main {}
+
+.carrinho .content main .content__header {}
+
+.carrinho .content main .content__header h3 {}
+
+.carrinho .content main.content__main {}
+
+.carrinho .content main.content__main .status {}
+
+.carrinho .content main.content__main .value {}
